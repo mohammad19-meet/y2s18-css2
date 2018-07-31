@@ -6,6 +6,10 @@ body {
     font-size: 36pt;
     font-family: sans-serif;
     height: 60px;
+    border-style: solid;
+    border-color: grey;
+    border-bottom:1px;
+    padding: 10px;
 }
 
 .container {
@@ -14,11 +18,13 @@ body {
 }
 
 .sidebar {
-    width: 200px;
+    width: 160px;
     background: #ff6677;
     position: absolute;
     top: 0;
     height: 100%;
+    padding: 10px 15px;
+
 }
 
 .main-content {
@@ -26,4 +32,11 @@ body {
     position: absolute;
     top: 0;
     left: 200px;
+    border-style: solid;
+    border-color: blue;
+    border-radius:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    box-shadow: 3px 6px grey;
 }
